@@ -14,5 +14,7 @@ export default {
 </script>
 
 <style>
-
+    .about_component{
+        height: 55vh;
+    }
 </style>

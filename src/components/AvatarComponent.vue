@@ -15,5 +15,7 @@ export default {
     .avatar{
         width: 250px;
         border-radius: 50%;
+        display: flex;
+        margin: 10px auto;
     }
 </style>
