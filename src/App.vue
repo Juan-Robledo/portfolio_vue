@@ -1,10 +1,7 @@
 <template>
   <div>
     <encabezado-component></encabezado-component>
-    <div>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <menu-component></menu-component>
     <router-view/>
     <pie-component></pie-component>
   </div>
@@ -12,12 +9,14 @@
 
 <script>
 import EncabezadoComponent from './components/EncabezadoComponent'
+import MenuComponent from './components/MenuComponent.vue'
 import PieComponent from './components/PieComponent.vue'
 export default {
     name: 'App',
     components: {
       EncabezadoComponent,
-      PieComponent
+      PieComponent,
+      MenuComponent
     },
 }
 </script>

@@ -1,6 +1,7 @@
 <template>
     <div class="about_component">
-        <p>{{message}}</p>
+        <h2 class="subtitle">About me</h2>
+        <p class="message">{{message}}</p>
     </div>
 </template>
 
@@ -16,5 +17,12 @@ export default {
 <style>
     .about_component{
         height: 55vh;
+    }
+    .about_component .subtitle{
+        text-align: center;
+    }
+    .about_component .message{
+        margin: 30px;
+        font-size: 1.3rem;
     }
 </style>

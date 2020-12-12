@@ -1,6 +1,6 @@
 <template>
     <div class="tools">
-        <h2>Tools</h2>
+        <h2 class="subtitle">Tools</h2>
         <ul v-for="(tool, index) in tools" :key="index">
             <li>{{tool}}</li>
         </ul>
@@ -17,5 +17,10 @@ export default {
 </script>
 
 <style>
-
+    .tools{
+        height: 55vh;
+    }
+    .tools .subtitle{
+        text-align: center;
+    }
 </style>

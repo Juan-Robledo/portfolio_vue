@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About'
 import ToolsView from '../views/ToolsView'
+import Courses from '../views/Courses'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/tools',
     name: 'tools',
     component: ToolsView
+  },
+  {
+    path: '/courses',
+    name: 'courses',
+    component: Courses
   }
 ]
 
