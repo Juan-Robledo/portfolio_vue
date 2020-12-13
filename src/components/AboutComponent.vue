@@ -16,10 +16,11 @@ export default {
 
 <style>
     .about_component{
-        height: 55vh;
+        height: 65vh;
     }
     .about_component .subtitle{
         text-align: center;
+        font-size: 2rem;
     }
     .about_component .message{
         margin: 30px;

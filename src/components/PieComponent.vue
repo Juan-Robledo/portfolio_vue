@@ -27,8 +27,8 @@ export default {
 <style scoped>
     .pie{
         width: 100%;
-        height: 200px;
-        background-color: #555555;
+        height: 225px;
+        background-color: #2E3140;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -36,11 +36,11 @@ export default {
     }
     h3{
         margin: 0;
-        color: #ffffff;
-        font-size: 1.4rem;
+        color: #D97855;
+        font-size: 1.7rem;
     }
     a{
-        color: #ffffff;
+        color:#F2A950;
         text-decoration: none;
         padding: 5px 0;
         font-size: 1.3rem;

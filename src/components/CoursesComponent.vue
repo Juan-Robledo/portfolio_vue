@@ -22,5 +22,6 @@ export default {
     }
     .courses_component .subtitle{
         text-align: center;
+        font-size: 2rem;
     }
 </style>

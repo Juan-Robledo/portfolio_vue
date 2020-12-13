@@ -1,6 +1,6 @@
 <template>
     <div class="encabezado">
-        <h1>This is my presentation</h1>
+        <h1>Hi!! I´m Juan, they call me cata</h1>
     </div>
 </template>
 
@@ -13,10 +13,12 @@ export default {
 <style>
     .encabezado{
         height: 100px;
-        background-color: #84A9D9;
-        color: #0b0d77;
+        background-color: #F2A950;
+        /* color: #025920; */
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 25px;
+        color: #ffffff;
     }
 </style>

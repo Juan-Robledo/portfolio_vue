@@ -16,5 +16,8 @@ export default {
 </script>
 
 <style>
-
+    .personal_data li{
+        list-style: none;
+        font-size: 1.2rem;
+    }
 </style>

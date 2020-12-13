@@ -22,5 +22,11 @@ export default {
     }
     .tools .subtitle{
         text-align: center;
+        font-size: 2rem;
+    }
+    .tools ul{
+        padding: 0;
+        text-align: center;
+        font-size: 1.3rem;
     }
 </style>
