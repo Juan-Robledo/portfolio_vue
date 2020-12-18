@@ -17,9 +17,6 @@ export default {
 </script>
 
 <style>
-    .tools{
-        height: 55vh;
-    }
     .tools .subtitle{
         text-align: center;
         font-size: 2rem;

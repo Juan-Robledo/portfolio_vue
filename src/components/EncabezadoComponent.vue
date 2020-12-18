@@ -14,7 +14,6 @@ export default {
     .encabezado{
         height: 100px;
         background-color: #F2A950;
-        /* color: #025920; */
         display: flex;
         justify-content: center;
         align-items: center;

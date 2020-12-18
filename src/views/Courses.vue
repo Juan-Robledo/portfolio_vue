@@ -1,5 +1,6 @@
 <template>
-    <courses-component :courses='courses'></courses-component>
+    <courses-component
+    :titles='titles' />
 </template>
 
 <script>
@@ -11,10 +12,10 @@ export default {
     },
     data() {
         return {
-            courses: {
-                title: ['Programacion Web Full-Stack', 'Vue.Js'],
-                stateCourse: ['Completado', 'Cursando']
-            }
+            titles: [
+                'Programacion Web Full-Stack Completado',
+                'Vue.Js Cursando'
+            ],
         }
     },
 }

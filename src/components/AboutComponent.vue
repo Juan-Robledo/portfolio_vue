@@ -15,9 +15,6 @@ export default {
 </script>
 
 <style>
-    .about_component{
-        height: 65vh;
-    }
     .about_component .subtitle{
         text-align: center;
         font-size: 2rem;
@@ -25,5 +22,10 @@ export default {
     .about_component .message{
         margin: 30px;
         font-size: 1.3rem;
+    }
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        .about_component .message{
+            font-size: 1.6rem;
+        }
     }
 </style>

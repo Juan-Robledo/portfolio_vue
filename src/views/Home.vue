@@ -1,7 +1,12 @@
 <template>
   <div class="home">
     <avatar-component :picture='picture'></avatar-component>
-    <data-component :personalData='personalData'></data-component>
+    <data-component
+    :apellido='apellido'
+    :nombres='nombres'
+    :edad='edad'
+    :telefono='telefono'
+    :email='email' />
   </div>
 </template>
 
@@ -20,13 +25,11 @@ export default {
   data() {
     return {
       picture: 'https://portfolio.juan-robledo.vercel.app/img/profile.95ddbe68.jpeg',
-      personalData: {
-        apellido: 'Robledo',
-        nombres: 'Juan Manuel',
-        edad: 28,
-        telefono: 3512628432,
-        email: 'robledojmutn@gmail.com',
-      }
+      apellido: 'Robledo',
+      nombres: 'Juan Manuel',
+      edad: 28,
+      telefono: 3512628432,
+      email: 'robledojmutn@gmail.com',
     }
   },
 }

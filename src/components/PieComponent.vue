@@ -1,11 +1,11 @@
 <template>
     <div class="pie">
         <h3>Contact</h3>
-        <a href="whatsapp"><i class="fab fa-whatsapp"></i> Whatsapp</a>
-        <a href="instagram"><i class="fab fa-instagram"></i> Instagram</a>
-        <a href="twitter"><i class="fab fa-twitter"></i> Twitter</a>
-        <a href="github"><i class="fab fa-github"></i> Github</a>
-        <a href="linkedin"><i class="fab fa-linkedin-in"></i> Linkedin</a>
+        <a :href="whatsapp" target="_blank"><i class="fab fa-whatsapp"></i> Whatsapp</a>
+        <a :href="instagram" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+        <a :href="twitter" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+        <a :href="github" target="_blank"><i class="fab fa-github"></i> Github</a>
+        <a :href="linkedin" target="_blank"><i class="fab fa-linkedin-in"></i> Linkedin</a>
     </div>
 </template>
 
@@ -34,15 +34,21 @@ export default {
         justify-content: center;
         align-items: center;
     }
-    h3{
+    .pie h3{
         margin: 0;
         color: #D97855;
         font-size: 1.7rem;
     }
-    a{
+    .pie a{
         color:#F2A950;
         text-decoration: none;
         padding: 5px 0;
         font-size: 1.3rem;
+    }
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        .pie{
+            flex-direction: row;
+            justify-content: space-around;
+        }
     }
 </style>

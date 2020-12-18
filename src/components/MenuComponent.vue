@@ -6,7 +6,7 @@
                     <router-link to='/'>Home</router-link>
                     <router-link to='/about'>About</router-link>
                     <router-link to='/tools'>Tools</router-link>
-                    <!-- <router-link to='/courses'>Education</router-link> -->
+                    <router-link to='/courses'>Education</router-link>
                 </div>
             <!-- <button class="btn_close"><i class="fas fa-times"></i></button> -->
         </div>
@@ -25,6 +25,7 @@ export default {
         width: 100%;
         text-align: right;
         position: absolute;
+        top: 15%;
     }
     .menu{
         display: none;
@@ -44,5 +45,7 @@ export default {
         justify-content: center;
         align-items: center;
         background-color: #2E3140;
+    }
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
     }
 </style>
