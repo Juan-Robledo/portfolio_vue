@@ -29,7 +29,7 @@ export default {
       nombres: 'Juan Manuel',
       edad: 28,
       telefono: 3512628432,
-      email: 'robledojmutn@gmail.com',
+      email: 'contacto@juanrobledo.com.ar',
     }
   },
 }
