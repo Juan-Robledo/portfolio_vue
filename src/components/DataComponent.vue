@@ -30,9 +30,9 @@ export default {
     .personal_data span{
         padding: 5px 0;
     }
-    @media screen and (min-width: 769px) and (max-width: 1024px) {
+    @media screen and (min-width: 769px) and (max-width: 1440px) {
         .personal_data{
-            font-size: 2rem;
+            text-align: center;
         }
     }
 

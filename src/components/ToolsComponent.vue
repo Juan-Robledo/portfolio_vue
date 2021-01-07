@@ -26,4 +26,13 @@ export default {
         text-align: center;
         font-size: 1.3rem;
     }
+    @media screen and (min-width: 769px) and (max-width: 1440px) {
+        .tools{
+            width: 1024px;
+            margin: auto;
+        }
+        .tools li{
+            list-style: none;
+        }
+    }
 </style>

@@ -45,10 +45,11 @@ export default {
         padding: 5px 0;
         font-size: 1.3rem;
     }
-    @media screen and (min-width: 769px) and (max-width: 1024px) {
+    @media screen and (min-width: 769px) and (max-width: 1440px) {
         .pie{
             flex-direction: row;
             justify-content: space-around;
+            height: 150px;
         }
     }
 </style>

@@ -1,6 +1,5 @@
 <template>
-    <courses-component
-    :titles='titles' />
+    <courses-component class="courses" :titles='titles' />
 </template>
 
 <script>
@@ -22,5 +21,11 @@ export default {
 </script>
 
 <style>
-
+    @media screen and (min-width: 769px) and (max-width: 1440px) {
+        .courses{
+            width: 1024px;
+            margin: auto;
+            height: 300px;
+        }
+    }
 </style>

@@ -23,7 +23,7 @@ export default {
         margin: 30px;
         font-size: 1.3rem;
     }
-    @media screen and (min-width: 769px) and (max-width: 1024px) {
+    @media screen and (min-width: 769px) and (max-width: 1440px) {
         .about_component .message{
             font-size: 1.6rem;
         }

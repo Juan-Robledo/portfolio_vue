@@ -1,5 +1,5 @@
 <template>
-    <tools-component :tools="tools"></tools-component>
+    <tools-component class="tools" :tools="tools"></tools-component>
 </template>
 
 <script>
@@ -23,7 +23,3 @@ export default {
     },
 }
 </script>
-
-<style>
-
-</style>

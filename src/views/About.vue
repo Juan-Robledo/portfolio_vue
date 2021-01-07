@@ -1,5 +1,5 @@
 <template>
-    <about-component :message='message'></about-component>
+    <about-component class="about" :message='message'></about-component>
 </template>
 
 <script>
@@ -15,6 +15,12 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+  @media screen and (min-width: 769px) and (max-width: 1440px) {
+    .about{
+      width: 1024px;
+      height: 350px;
+      margin: auto;
+    }
+  }
 </style>

@@ -34,3 +34,12 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+  @media screen and (min-width: 769px) and (max-width: 1440px) {
+    .home{
+      width: 1024px;
+      margin: auto;
+    }
+  }
+</style>

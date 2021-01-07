@@ -29,13 +29,11 @@ export default {
     }
     .menu{
         display: none;
-        height: 200px;
+        /* height: 200px; */
     }
     .menu a{
         text-decoration: none;
         color:#D97855;
-        width: 100%;
-        text-align: center;
         font-size: 1.3rem;
         padding: 5px;
     }
@@ -46,6 +44,18 @@ export default {
         align-items: center;
         background-color: #2E3140;
     }
-    @media screen and (min-width: 769px) and (max-width: 1024px) {
+    @media screen and (min-width: 769px) and (max-width: 1440px) {
+        .menu{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 5px 0;
+        }
+        .menu:hover{
+            color: #2E3140;
+        }
+        i {
+            display: none;
+        }
     }
 </style>
