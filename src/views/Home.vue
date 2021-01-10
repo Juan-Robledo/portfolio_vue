@@ -24,7 +24,7 @@ export default {
   name: 'Home',
   data() {
     return {
-      picture: 'https://portfolio.juan-robledo.vercel.app/img/profile.95ddbe68.jpeg',
+      picture: "https://i.postimg.cc/CMB4BtJ0/juan-robledo.png",
       apellido: 'Robledo',
       nombres: 'Juan Manuel',
       edad: 28,
