@@ -25,7 +25,7 @@ export default {
         .courses{
             width: 1024px;
             margin: auto;
-            height: 300px;
+            height: 350px;
         }
     }
 </style>
